@@ -30,3 +30,14 @@ Estruturação
 </ul>
 
 Também pode ser obtido esse resultado através da injeção de dependência, utilizando o método AddSingleton() da propriedade service.
+
+## Builder
+<br/>Pattern utilizado para construção de produtos geralmente complexos, utiliza de base um produto para ser construido, um Builder responsável por alimentar os dados do produto e um Director para gerenciar a criação.
+
+Estruturação
+
+<ul>
+    <li>Utilizamos de base um produto | EX: Studio24M e Studio26M </li>
+    <li>É criado um builder para esse produto, no qual fica responsável por alimentar os dados | EX: Studio24mBuilder e Studio26MBuilder </li>
+    <li>O Director irá gerenciar esse(s) builder(s), fazendo com que o client, para criar o produto desejado, realize o mesmo pelo Director.</li>
+</ul>

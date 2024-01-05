@@ -18,3 +18,15 @@ Estruturação
 Ex: 3 factories herdando na mesma interface IFactory, fazendo com que o cliente utilize de base essa interface IFactory para criar os produtos desejados.
 
 -> Var factory do client recebendo instâncias de factorys diferentes.
+
+## Singleton
+<br/>Pattern que pode ser usada quando há a necessidade e manter apenas um instância de uma determinada classe para utilização.
+
+Estruturação
+<ul>
+    <li>É necessário que a classe possua o contrutor privado, não permitido criação de instâncias externamente/li>
+    <li>Uma propriedade statica privada e uma publica com get publico e set privado</li>
+    <li>Alterar o modificador de acesso Get para que ele valide se a propriedade privada (responsável por manter a instância) já foi instanciada, caso sim, apenas retorna a instancia, caso não, cria uma nova instância e retorna</li>
+</ul>
+
+Também pode ser obtido esse resultado através da injeção de dependência, utilizando o método AddSingleton() da propriedade service.

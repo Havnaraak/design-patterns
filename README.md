@@ -41,3 +41,14 @@ Estruturação
     <li>É criado um builder para esse produto, no qual fica responsável por alimentar os dados | EX: Studio24mBuilder e Studio26MBuilder </li>
     <li>O Director irá gerenciar esse(s) builder(s), fazendo com que o client, para criar o produto desejado, realize o mesmo pelo Director.</li>
 </ul>
+
+## Prototype
+<br/>Pattern também de criação, porém utiliza como base um método de clonagem de um prototipo pré definido.
+
+Estruturação
+
+<ul>
+    <li>Utiliza de base uma classe abstrata para que seja usada de base na implementação, com os métodos necessário para a classe + o método clone. | EX: StudioModel </li>
+    <li>A classe que heradará a abstração, terá a implementação do método clone, que será responsável por retornar um objeto com a tipagem abstrata | EX Studio</li>
+    <li>Terá uma classe manager, responável por armazendar os prototypes (utilizado dictionary no caso) e disponibilizar um clone delas quando necessário | EX: SalesManagerStudio </li>
+</ul>

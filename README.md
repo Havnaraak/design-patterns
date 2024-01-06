@@ -68,3 +68,6 @@ Estruturação
 </ul>
 
 Após separação dos objetos, teremos uma Factory para gerenciar a criação/disponibilização desses objetos, fazendo com que seja criado uma instância quando não existir. 
+
+## Bridge
+<br/>Pattern semelhante ao Adapter, será dividido pela abstraçao e implementação, no qual a abstração será responsável por chamar as implementações, disponibilizando para o cliente todas as ações necessárias através da abstração.

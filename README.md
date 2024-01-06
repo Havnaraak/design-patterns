@@ -85,3 +85,7 @@ Após separação dos objetos, teremos uma Factory para gerenciar a criação/di
 <br/>Necessário possuir um objeto base, que possui a necessidade de ter seus serviços alterados de acordo com condições.
 <br/>EX: Objeto BanhoTosa(base) -> incrementa as alterações de comportamento acessórios e luxospa, fazendo com que os mesmos métodos se comportem diferente.
 <br/>Resumo: Decora um objeto e altera apenas o comportamento do objeto.
+
+
+## Facade
+<br/>Pattern utilizado para simplificar um código muito complexo, podendo ser dividido em sub-facades gerenciados por um facadeManager.

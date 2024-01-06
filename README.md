@@ -71,3 +71,10 @@ Após separação dos objetos, teremos uma Factory para gerenciar a criação/di
 
 ## Bridge
 <br/>Pattern semelhante ao Adapter, será dividido pela abstraçao e implementação, no qual a abstração será responsável por chamar as implementações, disponibilizando para o cliente todas as ações necessárias através da abstração.
+
+## Composite
+<br/>Pattern com estrutura hierárquica, dividido em composites e leafs, no composite atua como um delegador.
+<ul>
+    <li>Composite: O composite é um delegador composto de outro(s) composite(s) e leaf(s)</li>
+    <li>Leaf : Elemento base, responsável por executar a operação que foi delegata pelo composite. Não possui sub-elementos</li>
+O composite delegará a ação até chegar em um Leaf para executá-la.

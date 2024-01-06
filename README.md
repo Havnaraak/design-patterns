@@ -89,3 +89,18 @@ Após separação dos objetos, teremos uma Factory para gerenciar a criação/di
 
 ## Facade
 <br/>Pattern utilizado para simplificar um código muito complexo, podendo ser dividido em sub-facades gerenciados por um facadeManager.
+
+## Proxy
+<br/>Pattern utilizado para realizar o controle de acesso a objetos. Permitindo fornecer um objeto substituto ao original e exetuar ações antes ou depois da requisição chegar no objeto original. Algumas variações:
+<ul>
+    <li>Virtual: Controla dados valiosos e sensíveis para utilização ou criação</li>
+    <li>Remoto: Controla acesso a servidores remotos</li>
+    <li>Proteção: Acessa recursos que necessitam de autenticação/permissão</li>
+</ul>
+
+Estruturação:
+<ul>
+    <li>Interface base</li>
+    <li>Objeto concreto implementando interface</li>
+    <li>Proxy também implementando a interface</li>
+</ul>

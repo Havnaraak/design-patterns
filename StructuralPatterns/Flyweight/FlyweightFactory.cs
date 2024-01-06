@@ -7,9 +7,9 @@ namespace Flyweight
     {
         private Dictionary<string, Nave> listaNave = new();
 
-        public Nave GetNave(string cor)
+        public Nave? GetNave(string cor)
         {
-            Nave nave = null;
+            Nave? nave = null;
 
             if (listaNave.ContainsKey(cor))
             {
@@ -30,7 +30,7 @@ namespace Flyweight
                         break;
                 }
 
-                listaNave.Add(cor, nave);
+                if(nave is not null) listaNave.Add(cor, nave);
             }
 
             return nave;

@@ -21,7 +21,7 @@ namespace Flyweight
                 var tamanho = item.Split(":")[1];
                 var nave = factory.GetNave(cor);
 
-                nave.Exibir(cor, tamanho);
+                nave?.Exibir(cor, tamanho);
             }
         }
     }

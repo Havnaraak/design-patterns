@@ -52,3 +52,9 @@ Estruturação
     <li>A classe que heradará a abstração, terá a implementação do método clone, que será responsável por retornar um objeto com a tipagem abstrata | EX Studio</li>
     <li>Terá uma classe manager, responável por armazendar os prototypes (utilizado dictionary no caso) e disponibilizar um clone delas quando necessário | EX: SalesManagerStudio </li>
 </ul>
+
+
+<h1>Structural Patterns</h1>
+
+## Adapter
+<br/>Pattern utilizado para desvincular um código legado/biblioteca/dll diretamente do código do sistema, criando um adapter que fará referencia com esse código legado, ficando responsável por interpretar a regra de neǵocio do legado e disponibilizar para o código do sistema. Fazendo com que em caso de alterações no código legado, será necessário alterar apenas o adapter.

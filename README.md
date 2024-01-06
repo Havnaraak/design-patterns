@@ -58,3 +58,13 @@ Estruturação
 
 ## Adapter
 <br/>Pattern utilizado para desvincular um código legado/biblioteca/dll diretamente do código do sistema, criando um adapter que fará referencia com esse código legado, ficando responsável por interpretar a regra de neǵocio do legado e disponibilizar para o código do sistema. Fazendo com que em caso de alterações no código legado, será necessário alterar apenas o adapter.
+
+
+## Flyweight
+<br/>Pattern utilizado para reduzir consumo de memória em situações que há a necessidade de criar diversos objetos e essa criação ocasione esse alto consumo. É necessário dividir o objeto em 2 partes:
+<ul>
+    <li>Extrínseca: Parte do objeto que varia de instancia pra instancia, necessário receber por parâmetro | EX: props cor e tamanho</li>
+    <li>Intríseco: Parte do objeto que não muda, será compartilhada com todas instancias | EX: props condicao e acao</li>
+</ul>
+
+Após separação dos objetos, teremos uma Factory para gerenciar a criação/disponibilização desses objetos, fazendo com que seja criado uma instância quando não existir. 

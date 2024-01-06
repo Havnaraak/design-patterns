@@ -77,10 +77,10 @@ Após separação dos objetos, teremos uma Factory para gerenciar a criação/di
 <ul>
     <li>Composite: O composite é um delegador composto de outro(s) composite(s) e leaf(s)</li>
     <li>Leaf : Elemento base, responsável por executar a operação que foi delegata pelo composite. Não possui sub-elementos</li>
-O composite delegará a ação até chegar em um Leaf para executá-la.
+<br/>O composite delegará a ação até chegar em um Leaf para executá-la.
 
 ## Decorator
 <br/>Semelhante ao Composite, porém ao invés de aninhar objetos, o decorator aninha comportamentos.
-Necessário possuir um objeto base, que possui a necessidade de ter seus serviços alterados de acordo com condições.
-EX: Objeto BanhoTosa(base) -> incrementa as alterações de comportamento acessórios e luxospa, fazendo com que os mesmos métodos se comportem diferente.
-Resumo: Decora um objeto e altera apenas o comportamento do objeto.
+<br/>Necessário possuir um objeto base, que possui a necessidade de ter seus serviços alterados de acordo com condições.
+<br/>EX: Objeto BanhoTosa(base) -> incrementa as alterações de comportamento acessórios e luxospa, fazendo com que os mesmos métodos se comportem diferente.
+<br/>Resumo: Decora um objeto e altera apenas o comportamento do objeto.

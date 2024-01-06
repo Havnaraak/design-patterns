@@ -104,3 +104,9 @@ Estruturação:
     <li>Objeto concreto implementando interface</li>
     <li>Proxy também implementando a interface</li>
 </ul>
+
+<h1>Behavioral Patterns</h1>
+
+## Template Method
+<br/>Pattern utilizado para fornecer uma classe abstrata com partes de código fixo, que será compartilhado e utilizado da mesma forma para as classes que herdarem.
+Classe ProcessaDados abstrata, com o método ApresentarValores fixo, suas heranças não fazem override no método ApresentarValores, apenas nos outros. 

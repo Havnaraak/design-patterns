@@ -195,3 +195,13 @@ Estruturação:
     <li>Memento: Armazena o estado do objeto originator (somente setters e readonly)</li>
     <li>Caretaker: Acessa o originator e pode desfazer qualquer mudança efetuada se necessário. Responsável por armazenar todos os Mementos, recuperados de maneira LIFO (Last In First Out)</li>
 </ul>
+
+## State
+<br/>Pattern utilizado quando o comportamento do objeto muda dependendo do seu estado, permitindo com que esse comportamento seja alterado de acordo com o estado.
+
+Estruturação
+<ul>
+    <li>Context: Armazendo uma referencia a um dos objetos de estado e delega o trabalho para ele</li>
+    <li>IState: Contem os métodos do estado</li>
+    <li>ConcreteStates: Fornece as implementações referente ao seu estado.</li>
+</ul>

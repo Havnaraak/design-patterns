@@ -145,3 +145,13 @@ Estruturação
     <li>ConcreteCommand implementa as solicitações e passa para o receiver</li>
     <li>Classe Receiver, contém a lógica de negócio que executa a solicitação do command</li>
 </ul>
+
+## Strategy
+<br/>Pattern utilizado para definir um grupo de algoritmos e colocá-los em classe individuais, separando as responsabilidades. O objeto strategy altera o algoritmo conforme o contexto requisita, em tempo de execução.
+
+Estruturação
+<ul>
+    <li>Context: insere e executa os strategies</li>
+    <li>IStrategy: Interface com o método de execução</li>
+    <li>Strategies: Implementam IStrategy e possuem os algoritmos para executar</li>
+</ul>

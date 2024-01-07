@@ -165,3 +165,13 @@ Estruturação
     <li>Abstraçao com método para executar um processamento e um ponteiro para o próximo receiver</li>
     <li>Receivers que implementam a abstração</li>
 </ul>
+
+## Iterator
+<br/>Pattern utilizado para percorrer elementos de uma coleção, sem expor a estrutura.
+
+Estruturação:
+<ul>
+    <li>Interface IIterator, com métodos para percorrer</li>
+    <li>Interface IAggregate que possui o método para obter o IIterator</li>
+    <li>classes implementando as interfaces</li>
+</ul>

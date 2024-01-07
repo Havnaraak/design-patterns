@@ -185,3 +185,13 @@ Estruturação
     <li>Interface IColleague</li>
     <li>Implementação das interfaces</li>
 </ul>
+
+## Memento
+<br/>Pattern utilizado para capturar e armazenar o estado de um objeto em um determinado momento, permitindo com que seja restaurado posteriormente sem violar o encapsulamento.
+
+Estruturação:
+<ul>
+    <li>Originator: Objeto que irá se capturar</li>
+    <li>Memento: Armazena o estado do objeto originator (somente setters e readonly)</li>
+    <li>Caretaker: Acessa o originator e pode desfazer qualquer mudança efetuada se necessário. Responsável por armazenar todos os Mementos, recuperados de maneira LIFO (Last In First Out)</li>
+</ul>

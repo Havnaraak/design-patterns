@@ -175,3 +175,13 @@ Estruturação:
     <li>Interface IAggregate que possui o método para obter o IIterator</li>
     <li>classes implementando as interfaces</li>
 </ul>
+
+## Mediator
+<br/>Pattern utilizado para encapsular a comunicação entre objetos, fazendo a intermediaçao entre um objeto e outro.
+
+Estruturação
+<ul>
+    <li>Interface IMediator</li>
+    <li>Interface IColleague</li>
+    <li>Implementação das interfaces</li>
+</ul>

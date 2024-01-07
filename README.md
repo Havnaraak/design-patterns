@@ -113,3 +113,13 @@ Classe ProcessaDados abstrata, com o método ApresentarValores fixo, suas heran�
 
 ## Interpreter
 <br/>Pattern utilizado para fornecer uma maneira de avaliar a gramática ou a expressão da linguagem, tendo um interpretador de base que recebe um contexto de execução das expressões.
+
+## Observer
+<br/>Pattern com escopo em objeto, definindo dependência de um para muitos, com o principal objetivo de notificar e atualizar todas heranças quando o objeto for atualizado.
+
+Estruturação
+<ul>
+    <li>Interface Subject com lista de observers e métodos de adicionar, remover e notificar</li>
+    <li>Interface Observer com o método de update</li>
+    <li>Classe implementando as interfaces</li>
+</ul>

@@ -155,3 +155,13 @@ Estruturação
     <li>IStrategy: Interface com o método de execução</li>
     <li>Strategies: Implementam IStrategy e possuem os algoritmos para executar</li>
 </ul>
+
+
+## Chain of Responsibility
+<br/>Pattern utilizado para evitar a dependência entre um objeto receptor e um objeto solicitante, fazendo com que seja possível mais de um objeto realizar o tratamento da solicitação.
+
+Estruturação
+<ul>
+    <li>Abstraçao com método para executar um processamento e um ponteiro para o próximo receiver</li>
+    <li>Receivers que implementam a abstração</li>
+</ul>

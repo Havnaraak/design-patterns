@@ -123,3 +123,14 @@ Estruturação
     <li>Interface Observer com o método de update</li>
     <li>Classe implementando as interfaces</li>
 </ul>
+
+## Visitor
+<br/>Pattern utilizado para criar operações sem a necessidade de alterar o código alvo da operação, permitindo adicionar novas funcionalidades a um objeto pré-existente sem alterá-lo.
+
+Estruturação
+<ul>
+    <li>Abstração para o Visitor (interface ou classe abstrata)</li>
+    <li>Classes implementando a abstração</li>
+    <li>Abstração para o Elemento alvo do visitor</li>
+    <li>Classes implementando a abstração</li>
+</ul>

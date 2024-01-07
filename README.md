@@ -134,3 +134,14 @@ Estruturação
     <li>Abstração para o Elemento alvo do visitor</li>
     <li>Classes implementando a abstração</li>
 </ul>
+
+## Command
+<br/>Patter utilizado para encapsular uma solicitação ou comando em um objeto autônomo, podendo ser passado como argumento de método, permitindo parametrizar objetos com diferentes solicitações, enfileirar ou registrar solicitações e implementar recursos de cancelamento.
+
+Estruturação
+<ul>
+    <li>Interface Command com método de execução do comando</li>
+    <li>Classe Invoker, responsável por iniciar a solicitação</li>
+    <li>ConcreteCommand implementa as solicitações e passa para o receiver</li>
+    <li>Classe Receiver, contém a lógica de negócio que executa a solicitação do command</li>
+</ul>
